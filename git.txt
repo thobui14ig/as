@@ -1,0 +1,37 @@
+mycomputer
+
+1.git init(khởi tạo repo dưới local)
+-repo nơi chwua code
+
+2.git status: xem trạng thái
+
+3.git checkout -b develop(tạo nhánh mới có tên là develop)
+
+4. git add filename(add tưng file)
+git add .(add tất cả các file)
+5. git commit -m "up code leen"
+
+****Muốn về  nhanh develop git checkout develop
+6. add remote
+ git remote add ten_remote https://github.com/anhbongu/learn-git.git
+7.git remote -v(xem danh sách remote)
+
+8. git push ten_remote(đẩy code)
+
+
+
+=Các câu lệnh git cơ bản
+1. git brand -d tennhanh(xóa nháh)
+2.git checkout -b ten_nhánh(tạo mới 1 nhánh)
+3.git branch(xem danh sách nhánh)
+4.git checkout ten_nhanh(chuyển nhánh)
+5.git commit -m "noidung" (commmit code)
+6.git push origin tennhanh(đẩy code lên nhanh)origin : ten remode mình đạt
+7. git add .(adđ nhiều file 1 lúc)
+7. git add filename(adđ 1 file)
+8. git remote add tên_remote link_remote
+
+rm -rf .git XOAS
+
+- git origin ten_nhanh -> pull code mơi nhất của nhánh đó kéo code về
+-- git pull develop(lấy code mới nhất)
